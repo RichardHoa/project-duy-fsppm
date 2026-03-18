@@ -1,0 +1,257 @@
+## =========================
+## 0) Tham số & Packages
+## =========================
+# install.packages(c("readxl","dplyr","tidyr","purrr","openxlsx"))
+library(readxl); library(dplyr); library(tidyr); library(purrr); library(openxlsx)
+
+set.seed(42)
+
+path_in  <- "Personas_IPFP.xlsx"
+path_out <- "survey_responses_Personas_IPFP.xlsx"
+
+N_agents_total <- 5000
+m_per_base <- 5
+
+## ===========================================
+## 1) Đọc & chuẩn hóa từng sheet theo hàng
+## ===========================================
+safe_read_block <- function(sheet){
+  df   <- read_excel(path_in, sheet = sheet)
+  cats <- setdiff(names(df), c("Level","Taxpayer (%)"))
+
+  M <- as.matrix(sapply(df[, cats], as.numeric))
+  M[is.na(M)] <- 0
+
+  rs <- rowSums(M); k <- ncol(M)
+  for(i in seq_len(nrow(M))){
+    if (rs[i] == 0) M[i, ] <- rep(1/k, k) else M[i, ] <- M[i, ]/rs[i]
+  }
+
+  list(df=df, cats=cats, cond=M)
+}
+
+S <- list(
+  Dep = safe_read_block("Dependents_matrix"),
+  Emp = safe_read_block("Employment_matrix"),
+  Gdr = safe_read_block("Gender_matrix"),
+  Age = safe_read_block("Age_matrix"),
+  Edu = safe_read_block("Education_matrix")
+)
+
+r <- as.numeric(S$Dep$df$`Taxpayer (%)`); r[is.na(r)] <- 0
+r <- r / sum(r)
+L_names <- as.character(S$Dep$df$Level)
+
+## ===========================================
+## 2) Base personas + trọng số
+## ===========================================
+w_base <- expand.grid(
+  Level      = L_names,
+  Employment = S$Emp$cats,
+  Gender     = S$Gdr$cats,
+  stringsAsFactors = FALSE
+) %>%
+  rowwise() %>%
+  mutate(weight = {
+    i <- match(Level, L_names)
+    r[i] *
+      S$Emp$cond[i, match(Employment, S$Emp$cats)] *
+      S$Gdr$cond[i, match(Gender,     S$Gdr$cats)]
+  }) %>%
+  ungroup() %>%
+  arrange(desc(weight)) %>%
+  mutate(weight_pct = weight / sum(weight))
+
+stopifnot(abs(sum(w_base$weight_pct) - 1) < 1e-8)
+
+alloc_counts <- function(weights, N){
+  n <- floor(weights * N)
+  rem <- N - sum(n)
+  if (rem > 0) {
+    frac <- weights * N - n
+    take <- order(frac, decreasing = TRUE)[seq_len(rem)]
+    n[take] <- n[take] + 1
+  }
+  n
+}
+
+w_base$agents  <- alloc_counts(w_base$weight_pct, N_agents_total)
+w_base$base_id <- sprintf("L%s-%s-%s", w_base$Level, w_base$Employment, w_base$Gender)
+
+## ===========================================
+## 3) Sinh vi mô trong base (Age/Edu/Dep ~ theo Level)
+## ===========================================
+sample_inside <- function(level_chr, n){
+  i <- match(level_chr, L_names)
+  if (n <= 0) return(tibble(Dependents=character(0), Age=character(0), Education=character(0)))
+
+  Dep <- sample(S$Dep$cats, size=n, replace=TRUE, prob=S$Dep$cond[i,])
+  Age <- sample(S$Age$cats, size=n, replace=TRUE, prob=S$Age$cond[i,])
+  Edu <- sample(S$Edu$cats, size=n, replace=TRUE, prob=S$Edu$cond[i,])
+
+  tibble(Dependents=Dep, Age=Age, Education=Edu)
+}
+
+## ===========================================
+## 3.5) Helper functions (VI + tuổi + thu nhập)
+## ===========================================
+to_employment_vi <- function(x){
+  x <- as.character(x)
+  ifelse(grepl("formal|chính", x, ignore.case = TRUE), "Chính thức", "Phi chính thức")
+}
+
+to_gender_vi <- function(x){
+  x <- as.character(x)
+  ifelse(grepl("^m$|male|nam", x, ignore.case = TRUE), "Nam", "Nữ")
+}
+
+AGE_PLUS_MAX <- 70
+sample_age_years <- function(age_label_vec){
+  vapply(age_label_vec, function(lab){
+    lab2 <- gsub("–", "-", as.character(lab))
+
+    if (grepl("\\+", lab2)) {
+      nums <- as.numeric(regmatches(lab2, gregexpr("\\d+", lab2))[[1]])
+      if (length(nums) >= 1) {
+        lo <- nums[1]; hi <- max(lo, AGE_PLUS_MAX)
+        return(sample(lo:hi, 1))
+      } else return(NA_integer_)
+    }
+
+    nums <- as.numeric(regmatches(lab2, gregexpr("\\d+", lab2))[[1]])
+    if (length(nums) >= 2) {
+      lo <- nums[1]; hi <- nums[2]
+      return(sample(lo:hi, 1))
+    }
+
+    if (length(nums) == 1) return(as.integer(nums[1]))
+    NA_integer_
+  }, integer(1))
+}
+
+sample_income_vnd <- function(level_chr, n){
+  if (n <= 0) return(integer(0))
+
+  lvl_num <- suppressWarnings(as.integer(level_chr))
+  if (is.na(lvl_num)) stop("Level không phải số. Kiểm tra Level trong Personas_IPFP.xlsx")
+
+  ranges_mil <- list(
+    `1` = c(12, 18),
+    `2` = c(18, 23),
+    `3` = c(23, 32),
+    `4` = c(32, 48),
+    `5` = c(48, 70),
+    `6` = c(70, 102)
+  )
+
+  if (as.character(lvl_num) %in% names(ranges_mil)) {
+    lo <- ranges_mil[[as.character(lvl_num)]][1] * 1e6
+    hi <- ranges_mil[[as.character(lvl_num)]][2] * 1e6
+    return(as.integer(round(runif(n, lo, hi), 0)))
+  }
+
+  # L7: cố định 102 triệu
+  as.integer(rep(102e6, n))
+}
+
+## ===========================================
+## 4A) Persona_Catalog (loop index, ép scalar bằng [1])
+## ===========================================
+catalog_rows <- purrr::map_dfr(seq_len(nrow(w_base)), function(i){
+  row <- w_base[i, , drop = FALSE]
+
+  Level1      <- as.character(row$Level)[1]
+  Employment1 <- as.character(row$Employment)[1]
+  Gender1     <- as.character(row$Gender)[1]
+  weight_pct1 <- as.numeric(row$weight_pct)[1]
+  base_id1    <- as.character(row$base_id)[1]
+
+  sub <- sample_inside(Level1, m_per_base)
+  if (nrow(sub) == 0) return(tibble())
+
+  sub %>%
+    mutate(
+      Level=Level1, Employment=Employment1, Gender=Gender1,
+      base_id=base_id1,
+      micro_id = paste0(base_id1, "#", row_number()),
+      weight_share = weight_pct1 / m_per_base
+    ) %>%
+    relocate(base_id, micro_id, Level, Employment, Gender, Dependents, Age, Education, weight_share)
+})
+
+catalog_rows <- catalog_rows %>%
+  mutate(
+    persona_label = paste(
+      Level, Employment, Gender,
+      paste0("Dep=", Dependents),
+      paste0("Age=", Age),
+      paste0("Edu=", Education),
+      sep=" | "
+    ),
+    persona_text  = paste0(
+      "Bậc PIT ", Level, ", làm việc khu vực ", Employment,
+      ", giới tính ", Gender,
+      ", độ tuổi ", Age, ", học vấn ", Education,
+      ", số người phụ thuộc ", Dependents, "."
+    )
+  )
+
+## ===========================================
+## 4B) Agents (ép scalar bằng [1], không bao giờ nổ agents*agents)
+## ===========================================
+agents_rows <- purrr::map_dfr(seq_len(nrow(w_base)), function(i){
+  row <- w_base[i, , drop = FALSE]
+
+  Level1      <- as.character(row$Level)[1]
+  Employment1 <- as.character(row$Employment)[1]
+  Gender1     <- as.character(row$Gender)[1]
+  agents1     <- as.integer(row$agents)[1]
+  base_id1    <- as.character(row$base_id)[1]
+
+  if (is.na(agents1) || agents1 <= 0) return(tibble())
+
+  sub <- sample_inside(Level1, agents1)
+
+  tibble(
+    PIT_bracket = rep(paste0("L", Level1), agents1),
+    Level       = rep(Level1, agents1),
+
+    Employment  = rep(Employment1, agents1),
+    ChinhThuc_PhiChinhThuc = rep(to_employment_vi(Employment1), agents1),
+
+    Gender      = rep(Gender1, agents1),
+    Nam_Nu      = rep(to_gender_vi(Gender1), agents1),
+
+    ThuNhap     = sample_income_vnd(Level1, agents1),
+    Tuoi        = sample_age_years(sub$Age),
+
+    base_id     = rep(base_id1, agents1)
+  ) %>%
+    bind_cols(sub)
+})
+
+## ===========================================
+## 5) Quick checks
+## ===========================================
+cat("Agents rows:", nrow(agents_rows), "\n")
+print(names(agents_rows))
+print(agents_rows %>% select(PIT_bracket, ThuNhap, Age, Tuoi, ChinhThuc_PhiChinhThuc, Nam_Nu) %>% head(10))
+
+## ===========================================
+## 6) Export Excel
+## ===========================================
+wb_list <- list(
+  "BasePersonas_Weights" = w_base %>%
+    select(base_id, Level, Employment, Gender, weight_pct, agents) %>%
+    arrange(desc(weight_pct)),
+  "Persona_Catalog" = catalog_rows,
+  "Agents" = agents_rows
+)
+
+openxlsx::write.xlsx(wb_list, path_out, overwrite = TRUE)
+
+if (file.exists(path_out)) {
+  cat("Đã xuất file: ", normalizePath(path_out), "\n")
+} else {
+  stop(paste0("Xuất file thất bại, không tìm thấy file output: ", path_out))
+}

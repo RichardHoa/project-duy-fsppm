@@ -1,0 +1,227 @@
+--- Starting Pipeline at Thứ tư, 18 Tháng 3 năm 2026 18:52:31 +07 ---
+./run.sh: line 11: src/venv./bin/activate: No such file or directory
+[1/7] Running Step 2 Validation (Initial)...
+--- RUN STEP 2 (CALIBRATION) ---
+Mode: 1 runs/persona | Temp: 0.65
+-> Đã tải 25 hồ sơ gốc.
+Processing Persona #1...
+  -> Run 1: AI_OUT=10 | Human_OUT=9
+Processing Persona #2...
+  -> Run 1: AI_OUT=6 | Human_OUT=5
+Processing Persona #3...
+  -> Run 1: AI_OUT=7 | Human_OUT=7
+Processing Persona #4...
+  -> Run 1: AI_OUT=8 | Human_OUT=8
+Processing Persona #5...
+  -> Run 1: AI_OUT=8 | Human_OUT=8
+Processing Persona #6...
+  -> Run 1: AI_OUT=None | Human_OUT=6
+Processing Persona #7...
+  -> Run 1: AI_OUT=10 | Human_OUT=8
+Processing Persona #8...
+  -> Run 1: AI_OUT=7 | Human_OUT=6
+Processing Persona #9...
+  -> Run 1: AI_OUT=6 | Human_OUT=7
+Processing Persona #10...
+  -> Run 1: AI_OUT=8 | Human_OUT=10
+Processing Persona #11...
+  -> Run 1: AI_OUT=6 | Human_OUT=5
+Processing Persona #12...
+  -> Run 1: AI_OUT=9 | Human_OUT=7
+Processing Persona #13...
+  -> Run 1: AI_OUT=5 | Human_OUT=9
+Processing Persona #14...
+  -> Run 1: AI_OUT=9 | Human_OUT=10
+Processing Persona #15...
+  -> Run 1: AI_OUT=8 | Human_OUT=9
+Processing Persona #16...
+  -> Run 1: AI_OUT=9 | Human_OUT=8
+Processing Persona #17...
+  -> Run 1: AI_OUT=10 | Human_OUT=10
+Processing Persona #18...
+  -> Run 1: AI_OUT=8 | Human_OUT=9
+Processing Persona #19...
+  -> Run 1: AI_OUT=7 | Human_OUT=5
+Processing Persona #20...
+  -> Run 1: AI_OUT=8 | Human_OUT=7
+Processing Persona #21...
+  -> Run 1: AI_OUT=10 | Human_OUT=8
+Processing Persona #22...
+  -> Run 1: AI_OUT=8 | Human_OUT=8
+Processing Persona #23...
+  -> Run 1: AI_OUT=6 | Human_OUT=5
+Processing Persona #24...
+  -> Run 1: AI_OUT=10 | Human_OUT=7
+Processing Persona #25...
+  -> Run 1: AI_OUT=10 | Human_OUT=10
+
+-> Đã lưu File 1 (Raw CSV Full Reasoning) tại: /home/danghoa/Layer-2-Public-Response-Simulator/Layer 2 - Persona Simulator/data/step2_raw_simulation.csv
+
+--- ĐANG TẠO BÁO CÁO PHÂN TÍCH (File 2) ---
+-> Exported Report at: /home/danghoa/Layer-2-Public-Response-Simulator/Layer 2 - Persona Simulator/data/step2_report.xlsx
+
+--- COMPLETED STEP 2---
+[2/7] Running Step 2 Validation (Multi-run)...
+--- RUN STEP 2 (CALIBRATION) ---
+Mode: 5 runs/persona | Temp: 0.65
+-> Đã tải 25 hồ sơ gốc.
+Processing Persona #1...
+  -> Run 1: AI_OUT=7 | Human_OUT=9
+  -> Run 2: AI_OUT=9 | Human_OUT=9
+  -> Run 3: AI_OUT=9 | Human_OUT=9
+  -> Run 4: AI_OUT=9 | Human_OUT=9
+  -> Run 5: AI_OUT=7 | Human_OUT=9
+Processing Persona #2...
+  -> Run 1 (Attempt 1): Error - No valid scores extracted via Regex fallback.
+    (Retry 2/5 with new seed: 2143)
+  -> Run 1: AI_OUT=4 | Human_OUT=5
+  -> Run 2: AI_OUT=5 | Human_OUT=5
+  -> Run 3: AI_OUT=6 | Human_OUT=5
+  -> Run 4: AI_OUT=5 | Human_OUT=5
+  -> Run 5: AI_OUT=6 | Human_OUT=5
+Processing Persona #3...
+  -> Run 1: AI_OUT=7 | Human_OUT=7
+  -> Run 2: AI_OUT=8 | Human_OUT=7
+  -> Run 3: AI_OUT=7 | Human_OUT=7
+  -> Run 4: AI_OUT=4 | Human_OUT=7
+  -> Run 5: AI_OUT=6 | Human_OUT=7
+Processing Persona #4...
+  -> Run 1: AI_OUT=6 | Human_OUT=8
+  -> Run 2: AI_OUT=8 | Human_OUT=8
+  -> Run 3: AI_OUT=7 | Human_OUT=8
+  -> Run 4: AI_OUT=8 | Human_OUT=8
+  -> Run 5: AI_OUT=9 | Human_OUT=8
+Processing Persona #5...
+  -> Run 1: AI_OUT=9 | Human_OUT=8
+  -> Run 2: AI_OUT=8 | Human_OUT=8
+  -> Run 3: AI_OUT=9 | Human_OUT=8
+  -> Run 4: AI_OUT=9 | Human_OUT=8
+  -> Run 5: AI_OUT=9 | Human_OUT=8
+Processing Persona #6...
+  -> Run 1: AI_OUT=7 | Human_OUT=6
+  -> Run 2: AI_OUT=6 | Human_OUT=6
+  -> Run 3: AI_OUT=6 | Human_OUT=6
+  -> Run 4: AI_OUT=6 | Human_OUT=6
+  -> Run 5: AI_OUT=7 | Human_OUT=6
+Processing Persona #7...
+  -> Run 1: AI_OUT=10 | Human_OUT=8
+  -> Run 2: AI_OUT=9 | Human_OUT=8
+  -> Run 3: AI_OUT=9 | Human_OUT=8
+  -> Run 4: AI_OUT=9 | Human_OUT=8
+  -> Run 5: AI_OUT=9 | Human_OUT=8
+Processing Persona #8...
+  -> Run 1: AI_OUT=4 | Human_OUT=6
+  -> Run 2: AI_OUT=6 | Human_OUT=6
+  -> Run 3: AI_OUT=5 | Human_OUT=6
+  -> Run 4: AI_OUT=5 | Human_OUT=6
+  -> Run 5: AI_OUT=8 | Human_OUT=6
+Processing Persona #9...
+  -> Run 1: AI_OUT=8 | Human_OUT=7
+  -> Run 2: AI_OUT=8 | Human_OUT=7
+  -> Run 3: AI_OUT=8 | Human_OUT=7
+  -> Run 4: AI_OUT=7 | Human_OUT=7
+  -> Run 5: AI_OUT=8 | Human_OUT=7
+Processing Persona #10...
+  -> Run 1: AI_OUT=9 | Human_OUT=10
+  -> Run 2: AI_OUT=10 | Human_OUT=10
+  -> Run 3: AI_OUT=10 | Human_OUT=10
+  -> Run 4: AI_OUT=9 | Human_OUT=10
+  -> Run 5: AI_OUT=9 | Human_OUT=10
+Processing Persona #11...
+  -> Run 1: AI_OUT=8 | Human_OUT=5
+  -> Run 2: AI_OUT=5 | Human_OUT=5
+  -> Run 3: AI_OUT=4 | Human_OUT=5
+  -> Run 4: AI_OUT=5 | Human_OUT=5
+  -> Run 5: AI_OUT=7 | Human_OUT=5
+Processing Persona #12...
+  -> Run 1: AI_OUT=9 | Human_OUT=7
+  -> Run 2: AI_OUT=7 | Human_OUT=7
+  -> Run 3: AI_OUT=8 | Human_OUT=7
+  -> Run 4: AI_OUT=7 | Human_OUT=7
+  -> Run 5: AI_OUT=9 | Human_OUT=7
+Processing Persona #13...
+  -> Run 1: AI_OUT=7 | Human_OUT=9
+  -> Run 2: AI_OUT=8 | Human_OUT=9
+  -> Run 3: AI_OUT=7 | Human_OUT=9
+  -> Run 4: AI_OUT=9 | Human_OUT=9
+  -> Run 5: AI_OUT=9 | Human_OUT=9
+Processing Persona #14...
+  -> Run 1: AI_OUT=9 | Human_OUT=10
+  -> Run 2: AI_OUT=10 | Human_OUT=10
+  -> Run 3: AI_OUT=6 | Human_OUT=10
+  -> Run 4: AI_OUT=9 | Human_OUT=10
+  -> Run 5: AI_OUT=10 | Human_OUT=10
+Processing Persona #15...
+  -> Run 1: AI_OUT=9 | Human_OUT=9
+  -> Run 2: AI_OUT=9 | Human_OUT=9
+  -> Run 3: AI_OUT=8 | Human_OUT=9
+  -> Run 4: AI_OUT=10 | Human_OUT=9
+  -> Run 5: AI_OUT=10 | Human_OUT=9
+Processing Persona #16...
+  -> Run 1: AI_OUT=8 | Human_OUT=8
+  -> Run 2: AI_OUT=8 | Human_OUT=8
+  -> Run 3: AI_OUT=10 | Human_OUT=8
+  -> Run 4: AI_OUT=8 | Human_OUT=8
+  -> Run 5: AI_OUT=8 | Human_OUT=8
+Processing Persona #17...
+  -> Run 1: AI_OUT=9 | Human_OUT=10
+  -> Run 2: AI_OUT=9 | Human_OUT=10
+  -> Run 3: AI_OUT=9 | Human_OUT=10
+  -> Run 4: AI_OUT=9 | Human_OUT=10
+  -> Run 5: AI_OUT=10 | Human_OUT=10
+Processing Persona #18...
+  -> Run 1: AI_OUT=8 | Human_OUT=9
+  -> Run 2: AI_OUT=7 | Human_OUT=9
+  -> Run 3: AI_OUT=9 | Human_OUT=9
+  -> Run 4: AI_OUT=9 | Human_OUT=9
+  -> Run 5: AI_OUT=6 | Human_OUT=9
+Processing Persona #19...
+  -> Run 1: AI_OUT=7 | Human_OUT=5
+  -> Run 2: AI_OUT=6 | Human_OUT=5
+  -> Run 3: AI_OUT=7 | Human_OUT=5
+  -> Run 4: AI_OUT=7 | Human_OUT=5
+  -> Run 5: AI_OUT=6 | Human_OUT=5
+Processing Persona #20...
+  -> Run 1: AI_OUT=7 | Human_OUT=7
+  -> Run 2: AI_OUT=9 | Human_OUT=7
+  -> Run 3: AI_OUT=9 | Human_OUT=7
+  -> Run 4: AI_OUT=9 | Human_OUT=7
+  -> Run 5: AI_OUT=9 | Human_OUT=7
+Processing Persona #21...
+  -> Run 1: AI_OUT=9 | Human_OUT=8
+  -> Run 2: AI_OUT=8 | Human_OUT=8
+  -> Run 3: AI_OUT=8 | Human_OUT=8
+  -> Run 4: AI_OUT=7 | Human_OUT=8
+  -> Run 5: AI_OUT=9 | Human_OUT=8
+Processing Persona #22...
+  -> Run 1: AI_OUT=7 | Human_OUT=8
+  -> Run 2: AI_OUT=9 | Human_OUT=8
+  -> Run 3: AI_OUT=8 | Human_OUT=8
+  -> Run 4: AI_OUT=7 | Human_OUT=8
+  -> Run 5: AI_OUT=7 | Human_OUT=8
+Processing Persona #23...
+  -> Run 1: AI_OUT=6 | Human_OUT=5
+  -> Run 2: AI_OUT=6 | Human_OUT=5
+  -> Run 3: AI_OUT=7 | Human_OUT=5
+  -> Run 4: AI_OUT=8 | Human_OUT=5
+  -> Run 5: AI_OUT=8 | Human_OUT=5
+Processing Persona #24...
+  -> Run 1: AI_OUT=4 | Human_OUT=7
+  -> Run 2: AI_OUT=6 | Human_OUT=7
+  -> Run 3: AI_OUT=7 | Human_OUT=7
+  -> Run 4: AI_OUT=6 | Human_OUT=7
+  -> Run 5: AI_OUT=7 | Human_OUT=7
+Processing Persona #25...
+  -> Run 1: AI_OUT=10 | Human_OUT=10
+  -> Run 2: AI_OUT=10 | Human_OUT=10
+  -> Run 3: AI_OUT=9 | Human_OUT=10
+  -> Run 4: AI_OUT=10 | Human_OUT=10
+  -> Run 5: AI_OUT=9 | Human_OUT=10
+
+-> Đã lưu File 1 (Raw CSV Full Reasoning) tại: /home/danghoa/Layer-2-Public-Response-Simulator/Layer 2 - Persona Simulator/data/step2_raw_simulation.csv
+
+--- ĐANG TẠO BÁO CÁO PHÂN TÍCH (File 2) ---
+-> Exported Report at: /home/danghoa/Layer-2-Public-Response-Simulator/Layer 2 - Persona Simulator/data/step2_report.xlsx
+
+--- COMPLETED STEP 2---
+[3/7] Running Step 3 Validation...

@@ -1,0 +1,19 @@
+**THÔNG TIN VỀ  CẢI CÁCH THUẾ THU NHẬP CÁ NHÂN (TNCN)**
+
+Chính phủ ban hành Luật Thuế TNCN sửa đổi với 3 thay đổi cốt lõi:
+
+1. Tăng mạnh mức Giảm trừ gia cảnh:
+   - Bản thân: Tăng từ 11 triệu -> 20 triệu đồng/tháng.
+   - Người phụ thuộc: Tăng từ 4,4 triệu -> 8 triệu đồng/tháng.
+   
+2. Đơn giản hóa biểu thuế:
+   - Rút gọn từ 7 bậc xuống còn 5 bậc.
+
+3. Thay đổi các bậc thuế suất và ngưỡng chịu thuế như sau:
+   - Bậc 1: Thu nhập tính thuế/tháng đến 15 triệu đồng, chịu thuế suất 5%.
+   - Bậc 2: Thu nhập tính thuế/tháng trên 15 triệu đến 30 triệu đồng, chịu thuế suất 10%.
+   - Bậc 3: Thu nhập tính thuế/tháng trên 30 triệu đến 60 triệu đồng, chịu thuế suất 15%.
+   - Bậc 4: Thu nhập tính thuế/tháng trên 60 triệu đến 120 triệu đồng, chịu thuế suất 20%.
+   - Bậc 5: Thu nhập tính thuế/tháng trên 120 triệu, chịu thuế suất 25%.
+
+
