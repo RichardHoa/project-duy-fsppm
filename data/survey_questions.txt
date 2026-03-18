@@ -1,0 +1,18 @@
+Hãy đánh giá các nhận định sau theo thang điểm 1-10 (1=Hoàn toàn không đồng ý, 10=Hoàn toàn đồng ý):
+
+A. THỰC THI (ENFORCEMENT)
+- ENF1: Tôi tin rằng với các quy định quản lý thuế hiện nay, hành vi gian lận hoặc trốn thuế sẽ dễ dàng bị phát hiện và xử lý nghiêm.
+- ENF2: Tôi tin rằng Nhà nước, cơ quan thuế có đủ khả năng và công nghệ để phát hiện, xử lý nghiêm các hành vi trốn thuế.
+
+B. THUẬN TIỆN (FACILITATION)
+- FAC1: Các thủ tục khai báo thuế VÀ/HOẶC quy trình làm việc với cơ quan thuế đơn giản, tiện lợi, nhanh chóng hơn so với trước đây.
+- FAC2: So với trước đây, tôi thấy cách tính thuế và các bậc thuế trong phương án mới đơn giản, dễ hiểu và dễ thực hiện hơn.
+
+C. NIỀM TIN (TRUST)
+- TRU1 (Fairness): Tôi tin rằng Nhà nước, cơ quan thuế sẽ thực thi chính sách mới một cách khách quan, công tâm và đối xử bình đẳng với mọi người nộp thuế.  
+- TRU2 (Equity): Tôi thấy mức thuế tôi phải đóng theo phương án mới là công bằng (người thu nhập như tôi đóng mức này là hợp lý).
+- TRU3 (Reciprocity): Tôi tin tưởng số tiền thuế tôi đóng sẽ được Nhà nước sử dụng hiệu quả để cải thiện dịch vụ công (y tế, đường xá...)..
+- TRU4 (Accountability): Tôi thấy Nhà nước đã giải thích rõ ràng, minh bạch về lý do và mục tiêu của việc sửa đổi thuế lần này.
+
+D. KẾT QUẢ (OUTCOME)
+- OUT1: Sau khi xem xét các quyền lợi và nghĩa vụ, bạn có ủng hộ và tuân thủ chính sách mới hiện nay?

@@ -1,0 +1,111 @@
+# BÁO CÁO TINH CHỈNH HÀNH VI (CALIBRATION RULES)
+
+## BIẾN SỐ: ENF1
+**Rule:**:
+Đánh giá về khả năng phát hiện và xử lý nghiêm các hành vi trốn thuế dựa trên các quy định hiện hành cho thấy mức độ Trung lập (5 - 7) và Ủng hộ (8 - 10) khá cân bằng, trong khi Phản đối (1-4) ở mức không cao.
+
+Điều này phản ánh rằng nhiều người thừa nhận sự tồn tại của các quy định và chế tài, nhưng vẫn giữ thái độ thận trọng về mức độ nghiêm minh và nhất quán trong áp dụng thực tế. Niềm tin trong câu hỏi này mang tính chuẩn mực, gắn với cảm nhận về sức răn đe của luật pháp, hơn là trải nghiệm cá nhân trực tiếp.
+
+Khi mô phỏng phản hồi cho câu hỏi này, hãy cân nhắc rằng Trung lập có thể phản ánh sự dè dặt trước khoảng cách giữa quy định và thực thi, trong khi Ủng hộ hoặc Phản đối gắn với mức độ tin tưởng vào tính nghiêm minh của hệ thống pháp luật nói chung, không nhất thiết phụ thuộc mạnh vào vị thế lao động.
+
+----------------------------------------
+## BIẾN SỐ: ENF2
+**Rule:**:
+Ở bước validation, mô hình đã cho phân phối ổn định và hợp lý đối với ENF2. Do đó, trong bước calibration, ENF2 không áp dụng quy tắc điều chỉnh và không để các insight khác (trust, fairness, convenience, hoặc ý định tuân thủ) làm thay đổi đáng kể khuynh hướng trả lời.
+Khi trả lời ENF2, hãy dựa trên nhận thức xã hội chung về năng lực và công nghệ phát hiện trốn thuế, thay vì suy luận từ cảm xúc hoặc đánh giá ở các biến khác. Mục tiêu của ENF2 là duy trì cấu trúc phân phối tương tự validation, trong đó Phản đối thấp, còn Trung lập và Ủng hộ (Support) tương đối cân bằng với nhau, tránh trượt mạnh sang một phía.
+
+----------------------------------------
+## BIẾN SỐ: FAC1
+**Rule:**:
+Dữ liệu khảo sát cho thấy sự khác biệt rõ rệt giữa khu vực lao động chính thức và phi chính thức trong đánh giá mức độ thuận tiện của hệ thống thuế.
+
+Người làm việc trong khu vực chính thức có xu hướng đánh giá Trung lập hoặc Ủng hộ nhiều hơn. Điều này phản ánh thực tế rằng các thủ tục thuế thường được bộ phận nhân sự hoặc kế toán của doanh nghiệp hỗ trợ xử lý, khiến mức độ tiếp xúc trực tiếp của cá nhân với cơ quan thuế không cao. Do đó, trải nghiệm cá nhân về thủ tục thuế thường mang tính gián tiếp và ít gây phiền hà.
+
+Ngược lại, người lao động trong khu vực phi chính thức có xu hướng đánh giá kém thuận tiện hơn, do phải tự mình thực hiện các thủ tục kê khai và tuân thủ, từ đó dễ gặp khó khăn, phát sinh chi phí thời gian và sai sót. Tuy nhiên, trong nhóm này vẫn tồn tại sự khác biệt nội bộ, khi những cá nhân có thu nhập cao hơn có thể thuê dịch vụ bên thứ ba để xử lý thuế, làm giảm mức độ tiếp xúc trực tiếp và trải nghiệm tiêu cực với cơ quan thuế.
+
+Nhìn chung, đánh giá về mức độ thuận tiện của hệ thống thuế chịu ảnh hưởng mạnh bởi mức độ tiếp xúc trực tiếp với thủ tục hành chính, thay vì chỉ dựa trên nhận thức trừu tượng về chính sách.
+
+----------------------------------------
+
+## BIẾN SỐ: FAC2
+**Rule:**:
+Kết quả khảo sát cho thấy đánh giá về mức độ đơn giản, dễ hiểu và dễ thực hiện của cách tính thuế mới khác biệt rõ rệt theo độ tuổi.
+
+Nhóm tuổi trẻ (18 - 24 và 25 - 29) có xu hướng ủng hộ cao, phản ánh việc họ ít có trải nghiệm trực tiếp với hệ thống thuế trước đây và tiếp cận phương án mới như một chuẩn mực ban đầu, từ đó dễ cảm nhận sự đơn giản và rõ ràng.
+
+Khi độ tuổi tăng lên, đặc biệt ở các nhóm trung niên (30 - 39 và 40 - 49), thái độ chuyển dần sang Trung lập, cho thấy cá nhân đã có đủ trải nghiệm để so sánh giữa hệ thống cũ và mới, nhận thấy sự cải thiện nhất định nhưng chưa đủ rõ rệt để đánh giá hoàn toàn tích cực.
+
+Ở các nhóm tuổi cao hơn (50 - 54 và 55 - 64), mức độ Trung lập chiếm ưu thế nhưng không tuyệt đối, phản ánh việc thay đổi trong cách tính thuế đòi hỏi thời gian để thích nghi và hiểu đầy đủ, ngay cả khi không có sự phản đối rõ ràng.
+
+Khi mô phỏng phản hồi cho câu hỏi này, hãy cân nhắc rằng Trung lập thường phản ánh quá trình so sánh và thích nghi với thay đổi, trong khi Ủng hộ gắn với việc cảm nhận rõ ràng sự đơn giản so với trải nghiệm trước đây. Tránh giả định rằng mọi nhóm tuổi đều đánh giá mức độ đơn giản giống nhau.
+
+----------------------------------------
+
+## BIẾN SỐ: TRU1
+**Rule:**:
+Kết quả khảo sát cho thấy mức độ tin tưởng vào việc Nhà nước và cơ quan thuế thực thi chính sách một cách khách quan, công tâm và bình đẳng khác nhau rõ rệt theo nhóm tuổi.
+
+Nhóm trẻ (18 - 24 và 25 - 29) thường có xu hướng ít nghi ngờ hơn, với nhiều câu trả lời ở mức Trung lập hoặc Ủng hộ. Điều này phản ánh việc họ chưa có nhiều trải nghiệm trực tiếp với quá trình thực thi chính sách và đánh giá chủ yếu dựa trên kỳ vọng hoặc nhận thức chung.
+
+Khi độ tuổi tăng lên và mức độ tiếp xúc với hệ thống thuế và hành chính nhiều hơn, sự hoài nghi có xu hướng gia tăng. Ở các nhóm trung niên (30 - 39 và 40 - 49), niềm tin trở nên thận trọng hơn, phản ánh những trải nghiệm thực tế tích lũy theo thời gian.
+
+Đối với nhóm tuổi cao hơn (50 - 54 và 55 - 64), niềm tin vào tính công tâm của thực thi chính sách có xu hướng phân hoá rõ rệt. Ở nhóm 50 - 54, một bộ phận vẫn duy trì niềm tin dựa trên trải nghiệm cá nhân tích cực, trong khi một bộ phận khác thể hiện sự nghi ngờ rõ ràng do từng gặp hoặc quan sát những bất cập trong thực thi.
+
+Khi mô phỏng phản hồi cho câu hỏi này, hãy cân nhắc rằng Trung lập có thể phản ánh sự thận trọng hoặc đánh giá chưa dứt khoát, trong khi Ủng hộ hoặc Phản đối thường gắn với mức độ và tính chất trải nghiệm cá nhân. Tránh giả định rằng mọi nhóm tuổi đều có mức độ tin tưởng giống nhau, và cho phép sự khác biệt hợp lý theo vòng đời và trải nghiệm.
+
+----------------------------------------
+
+## BIẾN SỐ: TRU2
+**Rule:**
+Kết quả khảo sát cho thấy đánh giá về tính công bằng của mức thuế theo phương án mới phân hoá rõ rệt theo mức thu nhập.
+
+Các nhóm thu nhập thấp (Dưới 12 triệu VNĐ) và trung bình thấp (Từ 12 - 18 triệu VNĐ và Từ 18 - 23 triệu VNĐ) có xu hướng ủng hộ cao hơn, phản ánh việc gánh nặng thuế tương đối thấp hoặc lợi ích trực tiếp từ chính sách.
+
+Khi thu nhập tăng lên, đặc biệt ở các nhóm thu nhập trung bình (Từ 23 - 32 triệu VNĐ) – trung bình cao (Từ 32 - 48 triệu VNĐ và Từ 48 - 70 triệu VNĐ), thái độ chuyển dần sang Trung lập, phản ánh quá trình so sánh và cân nhắc giữa nghĩa vụ thuế, lợi ích nhận được, và cảm nhận về công bằng tương đối.
+
+Ở các nhóm thu nhập cao (Từ 70 - 102 triệu VNĐ và Trên 102 triệu VNĐ), mức độ hoài nghi hoặc phản đối tăng rõ rệt, do gánh nặng thuế được cảm nhận là lớn hơn và ít tương xứng hơn so với lợi ích trực tiếp mà cá nhân nhận được.
+
+Khi mô phỏng phản hồi cho câu hỏi này, hãy xem xét rằng cảm nhận công bằng chủ yếu được hình thành dựa trên vị thế thu nhập tương đối, chứ không chỉ dựa trên niềm tin chung vào chính sách. Trung lập trong bối cảnh này thường phản ánh sự cân nhắc và so sánh, trong khi Ủng hộ hoặc Phản đối gắn với mức độ tác động tài chính trực tiếp lên cá nhân.
+
+----------------------------------------
+
+## BIẾN SỐ: TRU3
+**Rule:**
+Kết quả khảo sát cho thấy mức độ tin tưởng rằng tiền thuế được Nhà nước sử dụng hiệu quả để cải thiện dịch vụ công khác biệt rõ rệt theo độ tuổi, phản ánh tác động của trải nghiệm và quan sát dài hạn đối với hệ thống chi tiêu công.
+
+Nhóm tuổi trẻ (18 - 24 và 25 - 29) có xu hướng ủng hộ hoặc ít nghi ngờ hơn, do hạn chế trải nghiệm trực tiếp và đánh giá chủ yếu dựa trên kỳ vọng chung về vai trò của Nhà nước trong cung cấp dịch vụ công.
+
+Khi độ tuổi tăng lên, đặc biệt ở các nhóm trung niên (30 - 39 và 40 - 49), niềm tin này trở nên thận trọng hơn, với tỷ lệ Trung lập và Phản đối tăng lên. Điều này phản ánh việc cá nhân đã tích lũy nhiều trải nghiệm và quan sát thực tế về hiệu quả, tiến độ và mức độ cải thiện của các dịch vụ công theo thời gian.
+
+Ở các nhóm tuổi cao hơn (50 - 54 và 55 - 64), mức độ hoài nghi có xu hướng rõ rệt hơn, cho thấy niềm tin vào hiệu quả chi tiêu công không còn mang tính kỳ vọng, mà được hình thành từ đánh giá thực tế và so sánh dài hạn giữa cam kết chính sách và kết quả quan sát được. Đặc biệt, nhóm 50 – 54, có tỉ lệ Phản đối cao hơn cả nhóm 55 – 64 cũng như các nhóm tuổi khác. Điều này phản ánh nhóm ở độ tuổi chín mùi, trưởng thành của sự nghiệp có kỳ vọng cao hơn so với nhóm sắp về hưu (55 – 64).
+
+Bên cạnh yếu tố độ tuổi, mức thu nhập có thể làm tăng hoặc giảm cường độ hoài nghi, đặc biệt ở nhóm thu nhập cao – nơi kỳ vọng về hiệu quả sử dụng ngân sách thường cao hơn do mức đóng góp lớn hơn. Tuy nhiên, niềm tin trong câu hỏi này chủ yếu phản ánh trải nghiệm và quan sát theo vòng đời, hơn là lợi ích tài chính trực tiếp.
+
+Khi mô phỏng phản hồi cho câu hỏi này, hãy cân nhắc rằng Trung lập có thể phản ánh sự đánh giá thận trọng hoặc chưa dứt khoát, trong khi Ủng hộ hoặc Phản đối thường gắn với mức độ và chiều hướng trải nghiệm cá nhân tích lũy theo thời gian.
+
+----------------------------------------
+
+## BIẾN SỐ: TRU4
+**Rule:**
+Kết quả khảo sát cho thấy mức độ tin tưởng rằng Nhà nước đã giải thích rõ ràng và minh bạch về lý do và mục tiêu của việc sửa đổi thuế khác biệt theo độ tuổi.
+
+Nhóm tuổi trẻ (18 - 24) có xu hướng ít nghi ngờ hơn và sẵn sàng chấp nhận thông tin chính thức, do chủ yếu tiếp cận chính sách thông qua các kênh truyền thông và chưa có nhiều trải nghiệm so sánh với các đợt cải cách trước. Vì vậy, xu hướng của nhóm này đa phần sẽ ở mức Trung lập hoặc Ủng hộ với tỉ lệ khá cân bằng.
+
+Khi độ tuổi tăng lên (25 - 29, 30 - 39 và 40 - 49), đặc biệt ở các nhóm trung niên, thái độ trở nên thận trọng hơn, với tỷ lệ Trung lập cao và tỷ lệ Phản đối cũng cao hơn nhóm trẻ. Điều này phản ánh việc cá nhân có theo dõi thông tin chính sách nhưng chưa hoàn toàn bị thuyết phục bởi mức độ rõ ràng và minh bạch trong truyền thông.
+
+Ở các nhóm tuổi cao hơn (50 - 54 và 55 -64), sự hoài nghi trở nên rõ rệt hơn, khi đánh giá về truyền thông chính sách chịu ảnh hưởng mạnh từ trải nghiệm dài hạn và việc so sánh giữa các thông điệp giải thích và kết quả thực tế của chính sách trong quá khứ.
+
+Khi mô phỏng phản hồi cho câu hỏi này, hãy cân nhắc rằng Trung lập thường phản ánh việc đã tiếp nhận thông tin nhưng chưa hình thành niềm tin vững chắc, trong khi Ủng hộ hoặc Phản đối gắn với mức độ thuyết phục của truyền thông chính sách đối với từng cá nhân.
+----------------------------------------
+
+## BIẾN SỐ: OUT1
+**Rule:**
+Kết quả khảo sát cho thấy mức độ ủng hộ và sẵn sàng tuân thủ chính sách thuế mới khác biệt rõ rệt theo độ tuổi, phản ánh quá trình hình thành quyết định hành vi dựa trên lợi ích, nghĩa vụ và trải nghiệm tích lũy theo vòng đời.
+
+Nhóm tuổi trẻ có xu hướng ủng hộ và sẵn sàng tuân thủ cao, do gánh nặng thuế tương đối thấp, ít trải nghiệm tiêu cực trong quá khứ và đánh giá chính sách chủ yếu dựa trên kỳ vọng.
+
+Khi độ tuổi tăng lên, đặc biệt ở các nhóm trung niên, thái độ chuyển mạnh sang Trung lập, phản ánh quá trình cân nhắc giữa lợi ích và nghĩa vụ, cũng như sự thận trọng trước các rủi ro và bất định trong thực thi chính sách.
+
+Ở một số nhóm tuổi cao hơn, mức độ phản đối có thể tăng lên, cho thấy quyết định không còn mang tính kỳ vọng mà dựa trên đánh giá tổng hợp từ trải nghiệm dài hạn về gánh nặng thuế, hiệu quả chính sách và mức độ tin tưởng vào thực thi.
+
+Khi mô phỏng phản hồi cho câu hỏi này, hãy xem xét rằng OUT phản ánh quyết định hành vi cuối cùng, được hình thành từ nhiều yếu tố khác nhau. Trung lập thường thể hiện sự tuân thủ có điều kiện hoặc chưa cam kết rõ ràng, trong khi Ủng hộ hoặc Phản đối gắn với mức độ đánh giá tổng hợp và dứt khoát của cá nhân theo vòng đời.

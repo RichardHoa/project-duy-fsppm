@@ -1,0 +1,404 @@
+Timestamp,Giới tính của bạn:,Độ tuổi của bạn:,Trình độ học vấn cao nhất:,Tình trạng việc làm chính:,"Thu nhập bình quân tháng theo Hợp đồng lao động của bạn là bao nhiêu? (Vui lòng điền tổng thu nhập trước khi khấu trừ các loại Bảo hiểm (BHXH, BHYT, BHTN) và Thuế TNCN)","Số người phụ thuộc (con nhỏ, cha mẹ già...) đủ điều kiện giảm trừ gia cảnh:","Tôi tin rằng với các quy định quản lý thuế hiện nay, hành vi gian lận hoặc trốn thuế sẽ dễ dàng bị phát hiện và xử lý nghiêm. - HUMAN-ENF1","Tôi tin rằng Nhà nước, cơ quan thuế có đủ khả năng và công nghệ để phát hiện, xử lý nghiêm các hành vi trốn thuế. - HUMAN-ENF2","Các thủ tục khai báo thuế VÀ/HOẶC quy trình làm việc với cơ quan thuế đơn giản, tiện lợi, nhanh chóng hơn so với trước đây. - HUMAN-FAC1","So với trước đây, tôi thấy cách tính thuế và các bậc thuế trong phương án mới đơn giản, dễ hiểu và dễ thực hiện hơn. - HUMAN-FAC2","Tôi tin rằng Nhà nước, cơ quan thuế sẽ thực thi chính sách mới một cách khách quan, công tâm và đối xử bình đẳng với mọi người nộp thuế.  - HUMAN-TRU1",Tôi thấy mức thuế tôi phải đóng theo phương án mới là công bằng (người thu nhập như tôi đóng mức này là hợp lý). - HUMAN-TRU2,"Tôi tin tưởng số tiền thuế tôi đóng sẽ được Nhà nước sử dụng hiệu quả để cải thiện dịch vụ công (y tế, đường xá...). - HUMAN-TRU3","Tôi thấy Nhà nước đã giải thích rõ ràng, minh bạch về lý do và mục tiêu của việc sửa đổi thuế lần này. - HUMAN-TRU4","Sau khi xem xét các quyền lợi và nghĩa vụ, bạn có ủng hộ và tuân thủ chính sách mới hiện nay? - HUMAN-OUT1"
+12/25/2025 14:05,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,1 người,10,8,5,5,10,10,10,10,10
+12/25/2025 14:05,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,8,8,6,9,10,9,8,9,10
+12/25/2025 14:07,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,6,5,4,5,4,4,4,10,4
+12/25/2025 14:07,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,10,10,8,9,9,7,10,7,10
+12/25/2025 14:08,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,9,9,10,9,9,9,9,9,9
+12/25/2025 14:17,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,8,8,5,8,6,6,4,5,6
+12/25/2025 14:19,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,2 người,5,4,4,6,6,7,2,4,4
+12/25/2025 14:28,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,2 người,1,1,2,3,6,2,7,3,3
+12/25/2025 15:35,Nữ,25 - 29,Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 12 - 18 triệu VNĐ,1 người,10,10,8,7,7,5,5,9,8
+12/25/2025 15:51,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,7,10,1,5,8,5,5,5,10
+12/25/2025 15:52,Nam,30 - 39,Sau Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 32 - 48 triệu VNĐ,4 người trở lên,10,3,1,7,1,5,1,8,6
+12/25/2025 17:01,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,5,8,5,5,6,5,5,5,5
+12/25/2025 17:54,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,8,7,7,7,7,8,7,7,7
+12/25/2025 20:16,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,10,10,8,8,8,6,6,5,5
+12/25/2025 20:19,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,7,9,3,6,1,1,1,1,1
+12/25/2025 21:09,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,8,8,8,9,7,7,9,8,7
+12/25/2025 21:15,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,2 người,6,7,5,5,6,7,3,4,5
+12/25/2025 21:47,Nam,40 - 49,Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 12 - 18 triệu VNĐ,0 người,6,8,7,8,8,7,7,6,8
+12/25/2025 21:51,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,10,10,5,5,5,3,2,5,8
+12/26/2025 1:57,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,9,9,7,9,7,8,5,5,6
+12/26/2025 7:30,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,3 người,10,10,8,7,7,7,2,3,3
+12/26/2025 8:42,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,8,8,5,8,8,8,8,8,8
+12/26/2025 9:36,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,5,5,5,5,5,5,5,5,5
+12/26/2025 11:37,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,2 người,9,8,6,9,8,10,6,6,8
+12/26/2025 11:40,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,6,7,5,6,7,7,3,3,5
+12/26/2025 11:45,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,4 người trở lên,10,10,10,6,6,10,1,4,10
+12/26/2025 12:06,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,1,1,1,1,1,1,1,1,1
+12/26/2025 12:06,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,1,1,1,1,1,1,1,1,1
+12/26/2025 12:07,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,10,10,9,10,10,9,10,10,10
+12/26/2025 12:07,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,10,10,9,10,10,10,10,10,10
+12/26/2025 12:07,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,10,7,10,7,10,10,3,5,8
+12/26/2025 12:08,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,5,5,5,5,5,5,5,5,5
+12/26/2025 12:08,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,8,9,7,8,8,8,3,6,7
+12/26/2025 12:08,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,1 người,10,10,10,10,10,10,10,10,10
+12/26/2025 12:14,Nữ,30 - 39,Cao đẳng,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,3 người,10,10,10,10,10,10,10,10,10
+12/26/2025 12:15,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,10,9,10,8,10,9,10,10,10
+12/26/2025 12:16,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,10,10,10,10,9,9,9,9,8
+12/26/2025 12:16,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,8,8,8,8,8,8,8,8,8
+12/26/2025 12:16,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,10,10,10,10,10,10,10,10,10
+12/26/2025 12:16,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,1 người,8,8,6,8,7,8,5,6,7
+12/26/2025 12:17,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,9,8,7,8,7,4,2,8,8
+12/26/2025 12:19,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,3 người,10,10,9,8,7,9,9,8,8
+12/26/2025 12:22,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,2 người,6,6,8,10,9,1,7,7,8
+12/26/2025 12:23,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,8,8,8,8,8,8,9,5,9
+12/26/2025 12:27,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,2 người,10,10,10,9,10,10,10,10,10
+12/26/2025 12:28,Nữ,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,2 người,1,1,2,1,1,1,1,1,1
+12/26/2025 12:28,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,8,8,8,7,6,8,8,9,8
+12/26/2025 12:29,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,3 người,10,10,10,10,10,10,10,10,10
+12/26/2025 12:29,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,2 người,8,8,7,8,6,8,6,5,8
+12/26/2025 12:31,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,3 người,10,10,10,8,8,8,8,8,8
+12/26/2025 12:38,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,10,10,10,10,10,10,10,10,10
+12/26/2025 12:41,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,1 người,10,10,10,10,10,10,10,10,8
+12/26/2025 12:45,Nam,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,2 người,10,10,10,10,10,10,10,10,10
+12/26/2025 12:45,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,8,7,7,8,7,8,7,7,8
+12/26/2025 12:48,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,10,9,3,4,3,3,1,1,3
+12/26/2025 12:54,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,10,10,9,10,9,10,9,10,9
+12/26/2025 13:26,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,2 người,10,10,1,5,7,10,9,9,10
+12/26/2025 13:56,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,5,5,4,8,5,7,7,7,7
+12/26/2025 15:02,Nữ,18 - 24,Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Dưới 12 triệu VNĐ,0 người,9,9,9,7,7,8,8,6,5
+12/26/2025 16:31,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,5,5,5,5,5,8,4,5,5
+12/26/2025 16:46,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,1 người,8,9,9,9,9,8,8,8,9
+12/26/2025 17:04,Nữ,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,9,9,7,6,7,5,6,8,5
+12/26/2025 19:26,Nữ,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,1 người,9,9,9,9,8,9,9,8,7
+12/27/2025 8:39,Nữ,30 - 39,Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Trên 102 triệu VNĐ,2 người,9,10,9,10,10,5,10,7,9
+12/28/2025 14:24,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,2 người,10,10,10,10,10,10,10,10,10
+12/28/2025 14:30,Nữ,25 - 29,Cao đẳng,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,5,3,5,4,3,5,6,6
+12/28/2025 15:02,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,5,5,4,4,2,3,2,3,3
+12/28/2025 15:30,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,4,3,1,5,4,3,1,3,5
+12/28/2025 15:33,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,7,7,8,9,8,10,9,9,9
+12/28/2025 15:34,Nam,40 - 49,Sau Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Trên 102 triệu VNĐ,1 người,6,6,5,5,5,1,5,5,5
+12/28/2025 15:37,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,2 người,3,3,3,5,3,3,3,3,4
+12/28/2025 15:39,Nam,30 - 39,Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 18 - 23 triệu VNĐ,3 người,8,8,4,2,6,3,8,4,8
+12/28/2025 15:48,Nam,18 - 24,Trung học phổ thông,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,5,5,5,5,5,10,5,5,10
+12/28/2025 16:27,Nữ,30 - 39,Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 18 - 23 triệu VNĐ,1 người,5,10,2,8,5,5,1,4,5
+12/28/2025 16:30,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,8,9,9,9,3,3,2,2,6
+12/28/2025 16:39,Nam,40 - 49,Trung học phổ thông,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 12 - 18 triệu VNĐ,3 người,5,5,5,5,5,5,5,5,5
+12/28/2025 16:44,Nữ,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,2 người,8,8,8,8,9,7,9,10,8
+12/28/2025 16:47,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,8,7,9,8,8,8,6,6,7
+12/28/2025 17:42,Nữ,55 - 64,Trung học phổ thông,"Khác (Về hưu, nội trợ, sinh viên)",Từ 12 - 18 triệu VNĐ,0 người,6,2,3,2,3,7,5,5,7
+12/28/2025 17:55,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,8,8,8,8,8,8,8,8,8
+12/28/2025 18:37,Nam,55 - 64,Sau Đại học,"Khác (Về hưu, nội trợ, sinh viên)",Dưới 12 triệu VNĐ,0 người,7,7,5,5,6,5,8,6,8
+12/28/2025 19:23,Nữ,55 - 64,Đại học,"Khác (Về hưu, nội trợ, sinh viên)",Từ 12 - 18 triệu VNĐ,1 người,8,9,5,5,5,5,1,5,5
+12/28/2025 19:33,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,2 người,10,8,8,7,7,6,7,6,8
+12/28/2025 19:38,Nữ,30 - 39,Cao đẳng,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,1 người,6,7,5,5,5,5,5,5,5
+12/28/2025 19:40,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,2 người,9,9,8,9,9,9,7,8,8
+12/28/2025 19:41,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,5,5,10,4,4,5,5,8,8
+12/28/2025 19:48,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,2 người,10,9,9,9,9,9,10,9,10
+12/28/2025 20:05,Nữ,40 - 49,Trung học phổ thông,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,2 người,10,10,10,10,10,10,10,10,10
+12/28/2025 20:08,Nữ,30 - 39,Cao đẳng,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,1 người,10,9,9,9,10,9,9,8,9
+12/28/2025 20:11,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,4 người trở lên,6,10,8,9,9,9,8,8,9
+12/28/2025 20:22,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,2 người,10,9,9,9,10,9,8,8,10
+12/28/2025 20:38,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,2 người,10,10,10,10,10,1,10,10,10
+12/28/2025 20:38,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,5,8,4,9,7,5,7,8,10
+12/28/2025 21:21,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,9,7,5,7,5,8,5,5,7
+12/28/2025 21:37,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,3 người,4,6,5,5,4,4,3,4,3
+12/28/2025 21:39,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,8,7,5,7,7,5,5,7,7
+12/28/2025 21:40,Nữ,55 - 64,Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Trên 102 triệu VNĐ,4 người trở lên,6,6,5,5,5,5,5,5,5
+12/28/2025 21:41,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,8,8,5,8,6,9,5,7,8
+12/28/2025 21:43,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,6,6,3,6,5,6,5,6,6
+12/29/2025 4:58,Nữ,55 - 64,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,1 người,8,8,8,10,10,10,10,10,10
+12/29/2025 6:44,Nữ,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,8,8,7,8,8,7,7,7,8
+12/29/2025 6:45,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,5,5,5,5,5,5,5,5,5
+12/29/2025 6:47,Nữ,55 - 64,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,8,8,5,8,5,5,6,6,5
+12/29/2025 6:47,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,6,7,6,8,6,7,6,6,7
+12/29/2025 8:21,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,1 người,9,10,8,8,9,9,8,6,9
+12/29/2025 8:33,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,10,5,8,8,10,10,10,10,10
+12/29/2025 8:39,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,7,7,7,7,7,7,7,7,8
+12/29/2025 8:52,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,1 người,5,10,5,5,5,5,8,5,6
+12/29/2025 9:03,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,1 người,10,10,10,10,10,10,10,10,10
+12/29/2025 9:10,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,7,6,8,8,7,6,5,5,8
+12/29/2025 9:34,Nam,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,8,8,6,7,6,7,5,5,5
+12/29/2025 9:36,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,2 người,7,8,8,8,8,8,8,8,8
+12/29/2025 9:50,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,3 người,1,1,1,1,1,1,1,1,1
+12/29/2025 10:03,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,4 người trở lên,10,10,10,10,10,10,10,10,10
+12/29/2025 10:05,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,4 người trở lên,1,1,1,1,1,1,1,1,1
+12/29/2025 11:50,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,9,9,9,9,9,9,9,8,9
+12/29/2025 12:10,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,0 người,8,9,8,6,8,8,8,8,6
+12/29/2025 13:01,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,4,1,1,5,1,3,1,1,5
+12/29/2025 13:02,Nữ,55 - 64,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,4 người trở lên,8,8,6,9,8,7,7,7,7
+12/29/2025 13:03,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,3 người,6,6,6,6,6,6,6,6,6
+12/29/2025 13:04,Nam,50 - 54,Sau Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Trên 102 triệu VNĐ,4 người trở lên,1,1,1,5,1,1,1,1,5
+12/29/2025 13:05,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,0 người,4,4,2,5,1,1,1,4,4
+12/29/2025 13:06,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,7,7,7,7,7,7,7,7,8
+12/29/2025 14:09,Nữ,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,10,9,10,10,10,8,9,9,9
+12/29/2025 14:10,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,2 người,10,10,10,10,10,10,10,10,10
+12/29/2025 14:26,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,8,8,5,8,8,8,7,7,8
+12/29/2025 14:27,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,1,1,1,5,1,1,1,5,5
+12/29/2025 14:28,Nam,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,6,6,6,8,6,3,5,5,4
+12/29/2025 14:29,Nam,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,3 người,6,6,4,5,5,1,5,4,5
+12/29/2025 14:29,Nữ,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,5,5,1,4,2,1,1,1,5
+12/29/2025 14:31,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,1 người,8,9,5,5,5,4,5,5,5
+12/29/2025 14:31,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,9,9,9,9,7,10,5,5,9
+12/29/2025 14:32,Nam,25 - 29,Cao đẳng,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,5,5,5,5,5,5,5,5,5
+12/29/2025 14:33,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,9,9,5,9,8,10,5,5,7
+12/29/2025 14:37,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,5,5,5,6,6,6,6,6,6
+12/29/2025 14:43,Nữ,55 - 64,Đại học,"Khác (Về hưu, nội trợ, sinh viên)",Dưới 12 triệu VNĐ,0 người,8,8,8,8,10,10,10,10,10
+12/29/2025 15:18,Nam,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,8,8,8,8,8,8,5,7,8
+12/29/2025 15:23,Nữ,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,8,9,7,7,6,6,2,5,6
+12/29/2025 20:27,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,2 người,5,4,7,6,3,4,4,5,5
+12/29/2025 21:20,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,10,9,9,9,8,8,8,8,10
+12/29/2025 21:21,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,8,7,6,6,5,5,3,3,5
+12/30/2025 8:12,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,1 người,5,6,5,7,6,6,6,7,7
+12/30/2025 10:46,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,0 người,1,1,8,8,8,8,8,8,8
+12/30/2025 10:47,Nữ,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,9,9,9,9,10,5,9,9,10
+12/30/2025 10:50,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,10,10,9,6,6,3,5,5,1
+12/30/2025 10:54,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,8,8,5,5,5,3,5,5,5
+12/30/2025 10:59,Nữ,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,0 người,7,7,1,6,3,5,1,4,5
+12/30/2025 11:05,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,6,6,5,7,5,7,5,6,7
+12/30/2025 11:09,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,3 người,10,10,7,8,8,4,1,3,6
+12/30/2025 11:24,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,7,10,5,7,7,7,7,7,10
+12/30/2025 11:42,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,8,8,8,8,8,8,8,8,8
+12/30/2025 12:10,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,10,10,10,10,10,10,10,10,10
+12/30/2025 12:21,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,1 người,7,7,5,7,7,7,7,7,7
+12/30/2025 14:44,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,2 người,7,8,8,8,6,8,5,8,8
+12/30/2025 18:51,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,10,10,10,10,10,10,10,10,10
+12/30/2025 18:59,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,10,10,10,10,10,10,10,10,10
+12/30/2025 19:26,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,10,10,1,10,1,1,1,1,6
+12/30/2025 19:51,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,7,8,6,6,7,5,6,7,7
+1/1/2026 10:33,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,2,7,10,2,10,5,10,3,3
+1/1/2026 15:13,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,9,9,10,2,9,9,6,8,10
+1/1/2026 15:17,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,5,7,5,3,4,1,5,5
+1/1/2026 15:31,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,3,8,4,5,5,5,5,5,5
+1/2/2026 7:31,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,10,10,10,10,10,10,10,10,10
+1/2/2026 9:17,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,8,9,9,9,5,7,5,7,7
+1/2/2026 14:22,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,5,5,6,6,6,6,5,7,8
+1/2/2026 16:52,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,10,8,10,10,10,10,10,10,8
+1/2/2026 18:20,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,0 người,5,8,5,8,4,5,1,5,5
+1/3/2026 8:11,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,7,7,8,8,7,8,8,8,9
+1/3/2026 8:59,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,8,8,7,8,7,7,7,8,8
+1/4/2026 13:48,Nam,25 - 29,Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 12 - 18 triệu VNĐ,0 người,5,8,7,8,1,2,3,3,7
+1/4/2026 13:50,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,6,7,5,7,7,7,5,7,7
+1/4/2026 13:51,Nam,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,8,8,8,9,9,5,5,8,6
+1/4/2026 13:52,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,5,5,4,6,5,4,4,5,5
+1/4/2026 13:53,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,6,6,6,6,7,7,5,7,6
+1/4/2026 13:54,Nữ,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,3 người,4,5,4,6,4,4,4,5,4
+1/4/2026 13:54,Nữ,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,0 người,2,4,3,5,4,1,1,4,4
+1/4/2026 13:56,Nữ,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,4,4,3,5,3,2,1,1,1
+1/4/2026 13:56,Nữ,55 - 64,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,4 người trở lên,6,7,6,6,6,7,5,6,7
+1/4/2026 13:58,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,7,7,7,8,7,8,7,7,8
+1/4/2026 13:59,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,5,5,5,7,5,6,5,7,7
+1/4/2026 16:48,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,6,7,7,8,8,7,5,7,7
+1/4/2026 16:49,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,8,8,5,8,6,8,6,7,7
+1/4/2026 16:50,Nam,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,3 người,2,5,3,5,3,2,1,5,5
+1/4/2026 16:51,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,6,6,5,9,7,8,5,7,7
+1/4/2026 16:52,Nữ,40 - 49,Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 32 - 48 triệu VNĐ,3 người,7,7,6,8,5,5,5,6,5
+1/4/2026 16:54,Nữ,55 - 64,Đại học,"Khác (Về hưu, nội trợ, sinh viên)",Từ 12 - 18 triệu VNĐ,0 người,7,7,5,7,5,5,5,5,6
+1/4/2026 17:01,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,6,7,6,7,6,6,5,5,6
+1/4/2026 17:31,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,5,5,4,6,5,5,5,5,5
+1/4/2026 22:56,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,8,8,5,7,6,8,5,7,8
+1/5/2026 13:53,Nam,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,7,7,7,8,3,3,2,3,8
+1/7/2026 16:26,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,7,7,6,8,7,8,7,7,7
+1/7/2026 16:27,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,8,8,9,9,9,9,8,8,9
+1/8/2026 9:52,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,2 người,1,1,7,5,5,7,2,5,5
+1/8/2026 13:47,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,1 người,10,10,6,4,8,3,10,10,10
+1/8/2026 15:17,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,1 người,9,9,5,5,7,7,8,8,8
+1/8/2026 15:22,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,2 người,9,9,9,9,9,9,9,9,9
+1/8/2026 15:23,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,3 người,9,10,10,9,10,10,10,9,10
+1/8/2026 16:21,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,2 người,5,5,5,5,5,5,5,4,5
+1/9/2026 8:59,Nữ,55 - 64,Sau Đại học,"Khác (Về hưu, nội trợ, sinh viên)",Dưới 12 triệu VNĐ,1 người,9,8,9,9,8,9,10,9,10
+1/9/2026 9:22,Nam,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,4,4,3,5,4,5,1,5,5
+1/9/2026 9:23,Nữ,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,5,5,1,5,4,2,2,5,4
+1/9/2026 9:24,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,6,8,8,9,7,7,7,8,8
+1/9/2026 9:24,Nữ,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,3 người,5,5,5,5,5,5,5,5,5
+1/9/2026 9:25,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,7,7,7,8,7,7,7,7,7
+1/9/2026 9:26,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,3,1,1,5,1,1,1,4,5
+1/9/2026 9:30,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,8,8,5,7,7,6,6,7,7
+1/9/2026 9:32,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,4,3,1,2,1,1,1,4,2
+1/9/2026 9:32,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,7,8,6,7,6,7,6,6,6
+1/9/2026 9:33,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,6,6,6,6,6,5,6,6,6
+1/9/2026 9:34,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,7,7,8,8,8,9,8,8,8
+1/9/2026 9:35,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,7,7,7,7,7,7,7,7,7
+1/9/2026 9:35,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,0 người,5,5,1,5,5,5,4,5,5
+1/9/2026 9:36,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,4 người trở lên,7,8,8,8,8,8,8,8,8
+1/9/2026 9:37,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,4 người trở lên,9,9,9,9,9,9,9,9,9
+1/9/2026 9:37,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,2 người,5,5,5,5,5,5,5,5,5
+1/9/2026 9:37,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,6,7,7,7,6,7,7,7,7
+1/9/2026 9:38,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,5,5,5,6,5,5,5,5,5
+1/9/2026 9:39,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,6,7,7,7,7,7,7,7,7
+1/9/2026 9:40,Nam,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,2 người,7,8,8,8,8,5,5,7,6
+1/9/2026 9:40,Nữ,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,1 người,10,10,6,9,9,9,9,8,8
+1/9/2026 9:41,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,4,4,4,6,5,6,5,6,5
+1/9/2026 9:43,Nữ,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,4,5,4,5,5,5,5,5,5
+1/9/2026 9:44,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,6,6,7,7,6,6,8,8,7
+1/9/2026 9:44,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,0 người,7,7,7,7,7,7,7,7,7
+1/9/2026 9:45,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,6,6,7,7,5,6,6,6,7
+1/9/2026 9:46,Nữ,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,7,7,6,7,7,7,7,7,7
+1/9/2026 9:47,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,6,6,6,6,6,6,6,6,6
+1/9/2026 9:47,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,2 người,8,9,7,8,9,8,8,8,8
+1/9/2026 9:48,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,6,6,6,6,6,7,6,6,7
+1/9/2026 9:49,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,4,5,1,6,4,4,5,5,5
+1/9/2026 9:49,Nam,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,8,8,8,8,7,7,8,7,8
+1/9/2026 9:50,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,6,6,6,6,6,6,6,6,6
+1/9/2026 9:50,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,1 người,8,8,8,8,9,8,8,8,10
+1/9/2026 9:50,Nữ,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,4,4,4,4,1,3,1,1,1
+1/9/2026 9:51,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,6,6,1,6,5,6,5,6,6
+1/9/2026 9:52,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,7,7,7,7,7,7,7,7,7
+1/9/2026 10:03,Nam,30 - 39,Sau Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 12 - 18 triệu VNĐ,3 người,10,10,4,6,3,1,1,3,1
+1/9/2026 10:15,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,8,10,8,10,9,8,7,9,9
+1/9/2026 10:35,Nam,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,6,6,6,6,6,6,6,7,6
+1/9/2026 10:36,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,8,8,8,8,8,8,8,8,8
+1/9/2026 10:36,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,7,6,7,7,8,8,8,8,8
+1/9/2026 10:36,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,6,5,5,7,7,7,7,8,8
+1/9/2026 10:37,Nam,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,6,6,6,6,6,6,6,6,6
+1/9/2026 10:37,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,7,6,6,8,6,6,6,6,6
+1/9/2026 10:38,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,0 người,4,4,1,4,4,4,5,5,5
+1/9/2026 10:39,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,6,7,7,7,7,7,7,7,7
+1/9/2026 10:40,Nữ,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,4 người trở lên,8,8,8,8,8,8,8,8,8
+1/9/2026 11:09,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,7,7,7,7,7,7,7,7,7
+1/9/2026 11:09,Nam,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,9,9,9,9,9,9,9,9,9
+1/9/2026 11:10,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,7,6,5,6,6,6,6,6,7
+1/9/2026 11:10,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,4 người trở lên,8,8,8,9,8,10,7,7,10
+1/9/2026 11:11,Nữ,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,6,6,1,6,5,6,6,6,6
+1/9/2026 11:12,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,8,8,3,9,8,8,8,8,8
+1/9/2026 11:12,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,1 người,4,3,1,7,3,6,5,6,6
+1/9/2026 11:13,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,6,6,1,7,5,6,6,6,6
+1/9/2026 11:14,Nữ,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,8,8,5,8,8,7,7,7,7
+1/9/2026 11:15,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,7,8,4,8,5,7,5,6,6
+1/9/2026 11:15,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,6,7,2,7,5,5,5,6,5
+1/9/2026 11:16,Nam,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,2,1,1,6,2,3,1,5,4
+1/9/2026 11:17,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,6,6,7,6,5,6,5,6,6
+1/9/2026 11:18,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,6,7,1,9,5,4,4,5,5
+1/9/2026 11:19,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,4 người trở lên,9,9,8,9,8,9,9,8,8
+1/9/2026 11:20,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,8,8,5,7,7,5,5,6,6
+1/9/2026 11:20,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,3 người,7,7,7,8,7,7,7,7,7
+1/9/2026 11:21,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,6,5,5,7,6,7,5,6,6
+1/9/2026 11:22,Nữ,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,7,6,6,6,7,7,7,7,7
+1/9/2026 11:22,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,6,7,7,6,6,6,6,7,7
+1/9/2026 11:23,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,2 người,7,7,2,7,7,7,7,7,7
+1/9/2026 11:24,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,4,5,2,6,3,3,1,3,1
+1/9/2026 12:36,Nữ,30 - 39,Sau Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 48 - 70 triệu VNĐ,0 người,8,8,3,8,3,1,8,6,7
+1/9/2026 14:35,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,7,7,4,7,7,6,5,7,6
+1/9/2026 14:35,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,7,8,2,6,6,6,5,5,6
+1/9/2026 14:36,Nữ,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,3,3,1,6,1,1,1,1,1
+1/9/2026 14:37,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,6,6,5,6,6,6,6,6,6
+1/9/2026 14:37,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,8,9,5,7,6,7,7,7,7
+1/9/2026 14:38,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,6,6,3,7,7,7,5,7,7
+1/9/2026 14:39,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,8,8,6,7,7,4,5,5,5
+1/9/2026 14:39,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,6,7,5,7,6,6,6,6,6
+1/9/2026 14:51,Nam,30 - 39,Sau Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Từ 70 - 102 triệu VNĐ,0 người,6,7,5,8,6,3,6,8,6
+1/9/2026 15:15,Nữ,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,4,4,1,6,3,2,1,5,4
+1/9/2026 15:16,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,6,7,4,8,6,6,5,7,6
+1/9/2026 15:16,Nữ,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,8,8,9,9,7,8,8,8,7
+1/9/2026 15:17,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,5,5,2,6,5,4,5,5,4
+1/9/2026 15:18,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,7,7,5,7,5,6,5,7,6
+1/9/2026 15:22,Nam,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,7,7,5,8,6,6,6,7,7
+1/9/2026 15:23,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,4,4,2,8,5,5,4,6,5
+1/9/2026 15:24,Nữ,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,4 người trở lên,10,10,7,7,8,7,8,8,8
+1/9/2026 15:25,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,8,8,5,9,10,10,9,9,10
+1/9/2026 15:25,Nữ,30 - 39,Cao đẳng,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,7,7,5,6,5,5,5,5,6
+1/9/2026 15:26,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,8,8,8,8,8,8,8,8,8
+1/9/2026 15:26,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,9,9,3,10,8,8,6,8,8
+1/9/2026 15:27,Nữ,55 - 64,Sau Đại học,"Khác (Về hưu, nội trợ, sinh viên)",Từ 48 - 70 triệu VNĐ,2 người,6,6,1,6,5,6,5,6,6
+1/9/2026 15:30,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,8,8,5,8,5,6,5,6,6
+1/9/2026 15:31,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,6,6,3,7,5,6,5,5,6
+1/9/2026 15:32,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,8,9,9,10,8,8,9,10,10
+1/9/2026 16:25,Nam,55 - 64,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,7,7,6,7,7,1,5,7,7
+1/9/2026 16:50,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,5,10,5,5,2,3,2,5,5
+1/9/2026 16:56,Nam,30 - 39,Đại học,"Khác (Về hưu, nội trợ, sinh viên)",Dưới 12 triệu VNĐ,0 người,5,5,5,10,10,5,5,5,5
+1/9/2026 17:12,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,10,10,10,10,10,10,10,10,10
+1/9/2026 17:12,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,9,9,8,10,8,8,10,9,9
+1/9/2026 18:35,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,8,7,9,5,7,7,7,6,7
+1/9/2026 18:52,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,7,7,4,8,7,7,5,5,7
+1/9/2026 18:57,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,2 người,6,10,5,4,3,7,4,4,5
+1/9/2026 18:58,Nam,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,10,10,10,10,10,10,10,10,10
+1/9/2026 19:09,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,7,9,8,6,5,3,9,3,4
+1/9/2026 19:12,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,3,8,8,4,4,3,7,5,5
+1/9/2026 19:19,Nữ,55 - 64,Sau Đại học,"Khác (Về hưu, nội trợ, sinh viên)",Từ 12 - 18 triệu VNĐ,2 người,2,2,2,1,2,2,2,2,2
+1/10/2026 7:22,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,2 người,10,8,8,8,10,10,6,8,8
+1/10/2026 9:06,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,10,10,10,10,10,9,9,10,10
+1/10/2026 13:52,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,7,7,5,8,8,9,9,9,10
+1/10/2026 13:52,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,6,5,4,7,5,6,6,7,7
+1/10/2026 13:57,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,8,9,10,10,8,9,8,8,10
+1/11/2026 9:35,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,6,6,7,7,7,8,5,5,8
+1/11/2026 10:21,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,8,8,8,5,8,6,6,8
+1/11/2026 21:19,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,4,5,5,7,5,8,5,6,8
+1/11/2026 21:20,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,6,8,5,6,6,7,6,7,7
+1/12/2026 11:29,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,7,5,8,5,8,5,7,8
+1/12/2026 11:30,Nữ,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,4,4,6,7,5,8,5,5,8
+1/12/2026 11:31,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,8,8,10,10,9,10,8,8,10
+1/12/2026 11:32,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,5,7,7,9,5,6,5,7,7
+1/12/2026 11:33,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,8,8,7,9,9,9,7,9,9
+1/12/2026 11:34,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,5,5,5,7,5,7,5,5,7
+1/12/2026 11:37,Nam,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,7,7,8,8,6,7,6,7,7
+1/12/2026 11:38,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,7,7,5,7,7,7,5,5,8
+1/12/2026 11:39,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,2,2,6,7,2,5,5,6,5
+1/12/2026 11:40,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,8,9,9,10,8,10,9,9,10
+1/12/2026 11:41,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,7,7,7,9,7,8,5,7,8
+1/12/2026 11:44,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,3 người,7,8,9,9,9,8,7,7,9
+1/12/2026 11:47,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,7,9,9,9,9,5,6,9
+1/12/2026 11:47,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,3,3,5,6,4,5,5,5,5
+1/12/2026 12:11,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,4,4,5,6,4,5,3,4,5
+1/12/2026 12:12,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,7,7,9,9,8,9,7,9,9
+1/12/2026 12:13,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,1 người,6,6,8,8,6,7,6,7,7
+1/12/2026 12:14,Nữ,50 - 54,Sau Đại học,"Khu vực phi chính thức (Lao động tự do, không có HĐLĐ)",Trên 102 triệu VNĐ,3 người,2,2,3,5,1,1,1,3,1
+1/12/2026 12:20,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,7,8,10,9,10,8,8,10
+1/12/2026 12:21,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,4,5,5,6,5,6,5,5,6
+1/12/2026 12:22,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,7,8,7,7,6,8,6,8,8
+1/12/2026 12:23,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,8,8,9,9,8,9,10,9,10
+1/12/2026 12:23,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,7,8,8,6,7,6,6,7
+1/12/2026 14:12,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,8,8,8,5,8,5,8,8
+1/12/2026 14:13,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,8,8,8,9,8,8,7,7,8
+1/12/2026 14:14,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,5,5,6,7,5,8,6,6,7
+1/12/2026 14:15,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,7,8,7,8,8,8,7,8
+1/12/2026 14:16,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,7,7,5,8,6,5,5,6,5
+1/12/2026 14:28,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,7,5,8,7,7,6,7,7
+1/12/2026 14:29,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,9,8,8,9,7,8,7,7,8
+1/12/2026 14:33,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,8,8,7,8,6,8,6,6,8
+1/12/2026 15:39,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,8,8,7,7,6,7,6,6,7
+1/12/2026 15:42,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,4,4,5,7,5,6,6,6,6
+1/12/2026 15:42,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,7,7,8,8,7,7,8,7,8
+1/12/2026 15:43,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,8,8,6,7,6,7,5,7,7
+1/12/2026 16:48,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,6,6,8,7,7,7,5,6,7
+1/12/2026 16:49,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,4 người trở lên,7,7,8,8,6,7,5,7,7
+1/12/2026 16:50,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,9,9,10,10,9,10,8,8,9
+1/12/2026 17:17,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,8,8,9,8,10,8,8,9
+1/12/2026 18:05,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,7,8,10,9,10,8,8,10
+1/12/2026 18:28,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,9,9,8,9,8,8,7,7,8
+1/12/2026 18:29,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,7,7,8,7,9,8,8,8
+1/12/2026 18:30,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,1 người,4,5,6,7,7,6,4,6,7
+1/12/2026 21:27,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,9,8,8,8,7,7,6,7,8
+1/12/2026 21:28,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,7,7,8,9,7,10,8,8,10
+1/12/2026 21:29,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,3,3,5,6,5,6,4,6,6
+1/12/2026 21:36,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,8,8,5,7,5,8,5,7,8
+1/12/2026 21:37,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,1 người,4,5,5,7,5,7,5,6,7
+1/12/2026 21:38,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,0 người,9,9,8,9,9,7,7,7,7
+1/12/2026 21:41,Nam,30 - 39,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,7,8,8,8,5,6,5,6,6
+1/12/2026 21:43,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,8,9,8,8,9,10,10,9,10
+1/12/2026 21:43,Nữ,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,2 người,7,7,8,8,6,8,6,7,8
+1/12/2026 21:47,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,6,6,8,9,8,8,5,7,8
+1/12/2026 21:48,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,6,7,7,9,7,9,9,9,9
+1/12/2026 21:49,Nam,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,3 người,4,4,5,5,5,4,5,6,5
+1/12/2026 21:50,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,6,6,8,8,6,7,5,6,6
+1/12/2026 21:51,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,8,8,9,9,5,5,5,6,5
+1/12/2026 22:35,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,6,6,7,7,6,6,6,6,6
+1/12/2026 23:15,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,1 người,8,8,8,8,7,6,6,5,7
+1/13/2026 6:45,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,6,6,5,7,6,7,5,6,7
+1/13/2026 8:14,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,8,7,7,8,9,7,7,8
+1/13/2026 8:15,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,6,7,5,8,7,7,7,7,8
+1/13/2026 8:17,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,8,8,9,9,7,9,7,7,9
+1/13/2026 8:31,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,8,8,5,8,6,9,5,7,8
+1/13/2026 8:53,Nam,18 - 24,Cao đẳng,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,9,9,8,9,8,10,8,8,10
+1/13/2026 8:54,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,1 người,5,5,4,8,4,8,4,5,7
+1/13/2026 8:55,Nam,50 - 54,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 70 - 102 triệu VNĐ,2 người,1,1,4,5,5,4,4,5,3
+1/13/2026 9:20,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,7,7,7,9,8,10,8,7,10
+1/13/2026 9:45,Nam,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,2 người,3,3,4,6,4,5,4,5,5
+1/13/2026 9:46,Nữ,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,8,8,9,8,7,8,7,7,8
+1/13/2026 10:21,Nam,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 48 - 70 triệu VNĐ,2 người,5,5,5,5,5,5,5,5,5
+1/13/2026 11:02,Nam,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,7,7,5,8,6,8,5,5,8
+1/13/2026 11:10,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 18 - 23 triệu VNĐ,0 người,6,8,7,8,6,8,5,5,8
+1/13/2026 11:11,Nữ,40 - 49,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,3 người,10,10,5,9,7,8,5,5,8
+1/13/2026 11:12,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,4,5,7,7,5,7,5,5,7
+1/13/2026 11:13,Nữ,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,2,3,3,6,5,5,5,5,5
+1/13/2026 11:14,Nữ,30 - 39,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,2 người,7,7,5,8,7,7,5,6,7
+1/13/2026 11:26,Nam,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,1 người,9,9,9,7,8,6,8,10,10
+1/13/2026 12:38,Nam,50 - 54,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,1 người,7,7,5,7,5,6,5,6,6
+1/13/2026 12:39,Nữ,30 - 39,Cao đẳng,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,1 người,2,2,4,5,5,3,5,5,5
+1/13/2026 12:40,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,8,8,7,7,7,8,7,8,8
+1/13/2026 12:40,Nữ,18 - 24,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Dưới 12 triệu VNĐ,0 người,9,9,8,9,7,9,8,8,8
+1/13/2026 12:41,Nữ,25 - 29,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,7,7,5,8,7,8,6,6,8
+1/13/2026 12:42,Nữ,40 - 49,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 32 - 48 triệu VNĐ,3 người,8,9,8,8,7,7,7,7,8
+1/13/2026 12:42,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 12 - 18 triệu VNĐ,0 người,4,4,3,5,5,2,2,5,2
+1/13/2026 12:47,Nam,55 - 64,Sau Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Trên 102 triệu VNĐ,4 người trở lên,7,7,4,6,5,4,5,5,5
+1/13/2026 12:49,Nữ,25 - 29,Đại học,"Khu vực chính thức (Có Hợp đồng lao động, đóng BHXH)",Từ 23 - 32 triệu VNĐ,0 người,7,7,7,7,7,7,7,7,7
